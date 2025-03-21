@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import Sidebar from "./Sidebar";
-import MainContentList from "./MainContentList";
-import MainContentPatient from "./MainContentPatient";
-import MClistappointment from "./MClistappointment";
-import MCappointment from "./MCappointment";
-import MCcalendar from "./MCcalendar";
+import Sidebar from "./components/Sidebar";
+import MainContentList from "./components/Maincontentlist";
+import MainContentPatient from "./components/Maincontentpatient";
+import MClistappointment from "./components/MClistappointment";
+import MCappointment from "./components/MCappointment";
+import MCcalendar from "./components/MCcalendar";
 import styled from "styled-components";
 
 const Wrapper = styled.div`
